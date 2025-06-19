@@ -6,13 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Template Driven Form';
+  title = '';
 
   onSubmit(form: any) {
-    if (form.valid) {
-      console.log('Form Submitted!', form.value);
-    } else {
-      console.log('Form is not valid');
-    }
   }
 }
